@@ -19,7 +19,7 @@
        "type": "string",
        "message": "Project Appid",
       "required": true,
-       "default": 'wx725bbd012cd345a4'
+       "default": "wx725bbd012cd345a4"
     },
     "component": {
        "type": "confirm",
