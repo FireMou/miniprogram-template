@@ -1,0 +1,24 @@
+{
+  "name": "{{ name }}",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "{{ author }}",
+  "license": "ISC",
+  "dependencies": {
+    {{#component}}
+    "@rt/weapp": "^1.0.17",
+    {{/component}}
+    "miniprogram-computed": "^4.3.4",
+    "wxmp-rsa": "^2.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://gitlab.inner.com/ccbscf-mobile-dev/ccbscf-ypmt-miniprogram"
+  },
+  "description": "{{ description }}",
+  "devDependencies": {
+    "mini-program-iconfont-cli": "^0.6.1"
+  }
+}

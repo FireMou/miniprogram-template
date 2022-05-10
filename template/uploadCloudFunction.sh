@@ -1,0 +1,1 @@
+"/Applications/wechatwebdevtools.app/Contents/MacOS/cli" cloud functions deploy --e test-env-c7cbfc --n quickstartFunctions --r --project "/Users/jxrt/Documents/1.company code/ccbscf-miniprogram-template/template" --report_start --report
